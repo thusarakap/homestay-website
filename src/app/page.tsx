@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import Image from 'next/image';
 import { JSX, SVGProps } from "react";
 
 export default function Home() {
@@ -39,7 +40,7 @@ export default function Home() {
               Next to Nature
             </h1>
             <p className="max-w-[600px] mt-4 text-lg md:text-xl">
-              Experience the tranquility of Kandy's lush hills at our cozy
+              Experience the tranquility of Kandy&apos;s lush hills at our cozy
               homestay, where nature and comfort converge.
             </p>
             <Link
@@ -71,7 +72,7 @@ export default function Home() {
                   culture of Kandy with every visitor.
                 </p>
               </div>
-              <img
+              <Image
                 src="/chamari.webp"
                 width="550"
                 height="310"
@@ -96,7 +97,7 @@ export default function Home() {
               </div>
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
-              <img
+              <Image
                 src="/room1.webp"
                 width="550"
                 height="310"
@@ -113,7 +114,7 @@ export default function Home() {
               </div>
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
-              <img
+              <Image
                 src="/room2.webp"
                 width="550"
                 height="310"
@@ -237,11 +238,11 @@ export default function Home() {
                   </div>
                 </div>
                 <div>
-                  "Chamari is an excellent host! She and her husband are super
+                  &quot;Chamari is an excellent host! She and her husband are super
                   nice, they love to meet new people. Our stay was short but I
                   definitely wish to come back, especially to be able to
                   continue chatting with them, they will certainly be one of my
-                  best memories of Sri Lanka! I wish you all the best 🌸❤️"
+                  best memories of Sri Lanka! I wish you all the best 🌸❤️&quot;
                 </div>
               </div>
               <div className="flex flex-col justify-center space-y-4">
@@ -267,12 +268,12 @@ export default function Home() {
                   </div>
                 </div>
                 <div>
-                  "Chamari and Nalin are some of the nicest and welcoming people
+                  &quot;Chamari and Nalin are some of the nicest and welcoming people
                   that I’ve ever met. The place is stunningly beautiful and the
                   room is perfect, even more so because of the price. It’s even
                   more spacious than the pictures and has everything that you
                   need for a good nights rest. I 100% recommend this place and I
-                  truly felt at home. Thank you for the amazing stay."
+                  truly felt at home. Thank you for the amazing stay.&quot;
                 </div>
               </div>
             </div>
