@@ -6,11 +6,12 @@ import { FC } from "react";
 
 export const Navbar: FC = () => {
   return (
-    <header className="absolute top-3 left-10 right-5 z-10 px-4 lg:px-6 h-14 flex items-center text-gray-100 bg-transparent">
+    // absolute top-3 left-10 right-5 z-10 px-4 lg:px-6 h-14 flex items-center text-gray-100 bg-transparent
+    <header className="absolute top-1 z-10 flex h-20 w-full items-center px-4 md:px-6 text-gray-100 bg-transparent">
       <Sheet>
         <SheetTrigger asChild>
           <Button variant="outline" size="icon" className="lg:hidden">
-            <MenuIcon className="h-8 w-8" />
+            <MenuIcon className="h-8 w-8 text-gray-600" />
             <span className="sr-only">Toggle navigation menu</span>
           </Button>
         </SheetTrigger>
