@@ -2,36 +2,62 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import Image from 'next/image';
+import { Navbar } from "@/components/component/navbar"; 
+
 import { JSX, SVGProps } from "react";
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
-      <header className="absolute top-3 left-10 right-5 z-10 px-4 lg:px-6 h-14 flex items-center text-gray-200 bg-transparent">
-  <Link href="#" className="flex items-center justify-center" prefetch={false}>
-    <MountainIcon className="h-8 w-8" />
-    <span className="sr-only">Kandy Homestay</span>
-  </Link>
-  <nav className="ml-auto flex gap-4 sm:gap-6">
-    <Link href="#" className="text-2xl font-semibold hover:text-gray-400 transition-colors duration-300" prefetch={false}>
-      About
-    </Link>
-    <Link href="#" className="text-2xl font-semibold hover:text-gray-400 transition-colors duration-300" prefetch={false}>
-      Rooms
-    </Link>
-    <Link href="#" className="text-2xl font-semibold hover:text-gray-400 transition-colors duration-300" prefetch={false}>
-      Amenities
-    </Link>
-    <Link href="#" className="text-2xl font-semibold hover:text-gray-400 transition-colors duration-300" prefetch={false}>
-      Contact
-    </Link>
-  </nav>
-</header>
+      
+      <Navbar />
+
+      {/* <header className="absolute top-3 left-10 right-5 z-10 px-4 lg:px-6 h-14 flex items-center text-gray-200 bg-transparent">
+        <Link
+          href="#"
+          className="flex items-center justify-center"
+          prefetch={false}
+        >
+          <MountainIcon className="h-8 w-8" />
+          <span className="sr-only">Kandy Homestay</span>
+        </Link>
+        <nav className="ml-auto flex gap-4 sm:gap-6">
+          <Link
+            href="#"
+            className="text-2xl font-semibold hover:text-gray-400 transition-colors duration-300"
+            prefetch={false}
+          >
+            About
+          </Link>
+          <Link
+            href="#"
+            className="text-2xl font-semibold hover:text-gray-400 transition-colors duration-300"
+            prefetch={false}
+          >
+            Rooms
+          </Link>
+          <Link
+            href="#"
+            className="text-2xl font-semibold hover:text-gray-400 transition-colors duration-300"
+            prefetch={false}
+          >
+            Amenities
+          </Link>
+          <Link
+            href="#"
+            className="text-2xl font-semibold hover:text-gray-400 transition-colors duration-300"
+            prefetch={false}
+          >
+            Contact
+          </Link>
+        </nav>
+      </header> */}
+
       <main className="flex-1">
         <section className="relative w-full h-[80vh] bg-[url('/banner.webp')] bg-cover bg-center">
           <div className="absolute inset-0" />
@@ -238,9 +264,9 @@ export default function Home() {
                   </div>
                 </div>
                 <div>
-                  &quot;Chamari is an excellent host! She and her husband are super
-                  nice, they love to meet new people. Our stay was short but I
-                  definitely wish to come back, especially to be able to
+                  &quot;Chamari is an excellent host! She and her husband are
+                  super nice, they love to meet new people. Our stay was short
+                  but I definitely wish to come back, especially to be able to
                   continue chatting with them, they will certainly be one of my
                   best memories of Sri Lanka! I wish you all the best 🌸❤️&quot;
                 </div>
@@ -268,12 +294,13 @@ export default function Home() {
                   </div>
                 </div>
                 <div>
-                  &quot;Chamari and Nalin are some of the nicest and welcoming people
-                  that I’ve ever met. The place is stunningly beautiful and the
-                  room is perfect, even more so because of the price. It’s even
-                  more spacious than the pictures and has everything that you
-                  need for a good nights rest. I 100% recommend this place and I
-                  truly felt at home. Thank you for the amazing stay.&quot;
+                  &quot;Chamari and Nalin are some of the nicest and welcoming
+                  people that I’ve ever met. The place is stunningly beautiful
+                  and the room is perfect, even more so because of the price.
+                  It’s even more spacious than the pictures and has everything
+                  that you need for a good nights rest. I 100% recommend this
+                  place and I truly felt at home. Thank you for the amazing
+                  stay.&quot;
                 </div>
               </div>
             </div>
