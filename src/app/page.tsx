@@ -61,7 +61,7 @@ export default function Home() {
                 <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Next to Nature is a family-owned and operated guesthouse
                   located in the heart of Kandy, Sri Lanka. Our home has been
-                  welcoming travelers for over 20 years, offering a comfortable
+                  welcoming travelers for over 6 years, offering a comfortable
                   and authentic experience.
                 </p>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
